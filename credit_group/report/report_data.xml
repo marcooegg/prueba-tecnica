@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+	<report 
+		string="Credit Group State" 
+		id="credit_group_report_pdf" 
+		model="credit.group" 
+		report_type="qweb-pdf"
+		name="credit_group.credit_group_report" 
+		file="credit_group.credit_group_report" 
+	/>
+
+</odoo>

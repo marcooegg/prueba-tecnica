@@ -1,0 +1,122 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_channel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-16 17:19+0000\n"
+"PO-Revision-Date: 2023-09-16 17:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: sale_channel
+#: model_terms:ir.ui.view,arch_db:sale_channel.view_account_invoice_filter
+#: model_terms:ir.ui.view,arch_db:sale_channel.view_order_search
+#: model_terms:ir.ui.view,arch_db:sale_channel.view_picking_internal_search
+msgid "Channel"
+msgstr "Canal de Ventas"
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__code
+msgid "Code"
+msgstr "Código"
+
+#. module: sale_channel
+#: code:addons/prueba-tecnica/sale_channel/models/sale_channel.py:0
+#: code:addons/sale_channel/models/sale_channel.py:0
+#: model:ir.model.constraint,message:sale_channel.constraint_sale_channel_code_uniq
+#, python-format
+msgid "Code must be unique"
+msgstr "El código debe ser único"
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__id
+msgid "ID"
+msgstr ""
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__journal_id
+msgid "Journal"
+msgstr "Diario"
+
+#. module: sale_channel
+#: model:ir.model,name:sale_channel.model_account_move
+msgid "Journal Entries"
+msgstr "Asientos contables"
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: sale_channel
+#: model:ir.model,name:sale_channel.model_sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_account_move__sale_channel_id
+#: model:ir.model.fields,field_description:sale_channel.field_sale_order__sale_channel_id
+#: model:ir.model.fields,field_description:sale_channel.field_stock_picking__sale_channel_id
+#: model_terms:ir.ui.view,arch_db:sale_channel.sale_channel_view_form
+msgid "Sale Channel"
+msgstr "Canal de Ventas"
+
+#. module: sale_channel
+#: model:ir.actions.act_window,name:sale_channel.sale_channel_view_action
+#: model:ir.ui.menu,name:sale_channel.sale_channel_menu_act
+msgid "Sale Channels"
+msgstr "Canales de Ventas"
+
+#. module: sale_channel
+#: model:ir.model,name:sale_channel.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: sale_channel
+#: model:ir.model,name:sale_channel.model_stock_picking
+msgid "Transfer"
+msgstr "Albarán"
+
+#. module: sale_channel
+#: model:ir.model.fields,field_description:sale_channel.field_sale_channel__warehouse_id
+#: model:ir.model.fields,field_description:sale_channel.field_sale_order__warehouse_id
+msgid "Warehouse"
+msgstr "Almacén"
